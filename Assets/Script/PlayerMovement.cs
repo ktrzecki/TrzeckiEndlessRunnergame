@@ -96,7 +96,7 @@ public class PlayerMovement : MonoBehaviour
         {
             obstacleSpawner.ResumeObstacles();
             platformSpawner.ResumePlatforms();
-            collectableSpawner.pausedCollectables();
+            collectableSpawner.ResumeCollectables();
             obstacleSpawner.isPaused = false;
             platformSpawner.isPaused = false;
             collectableSpawner.isPaused = false;
