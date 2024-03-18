@@ -8,6 +8,7 @@ public class ObstacleSpawner : MonoBehaviour
     [SerializeField] private float spawnTimemin = 2f;
     [SerializeField] private float spawnTimemax = 5f;
     [SerializeField] private float obstacleSpeed = 3f;
+    [SerializeField] private Animator animator;
     //[SerializeField] private obstacleSpawner obstacleSpawner;
 
     public float obstacleSpawnTime = 2f;
@@ -56,6 +57,7 @@ public class ObstacleSpawner : MonoBehaviour
         if(stageStart != null)
         {
             Rigidbody2D obstacleRB = stageStart.GetComponent<Rigidbody2D>();
+            animator.SetBool("isDying", true);
 
             obstacleRB.velocity = Vector2.left * obstacleSpeed;
             activeObstacles.Add(stageStart);

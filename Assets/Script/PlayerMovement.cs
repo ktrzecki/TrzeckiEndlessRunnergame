@@ -6,10 +6,11 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-
+        
     }
+    
     public Rigidbody2D Player;
 
     [SerializeField] private Rigidbody2D playerRigidbody;
@@ -27,10 +28,15 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded = false;
     private bool isJumping = false;
     private float jumpTimer;
+    private float moveSpeed;
+    private float moveHorizontal;
+    private float moveVertical;
 
     
+
+
     //private bool isDoubleJump = false;
-    
+
 
     // Update is called once per frame
     private void Update()
