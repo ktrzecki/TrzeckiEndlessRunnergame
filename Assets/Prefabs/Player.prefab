@@ -111,7 +111,7 @@ Animator:
   m_GameObject: {fileID: 1208144871472054}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b09e60546065cf9448b36ebb7f759a91, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5e028ec8b246c7c408e8000cb9cecda7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -174,7 +174,7 @@ MonoBehaviour:
   obstacleSpawner: {fileID: 0}
   platformSpawner: {fileID: 0}
   collectableSpawner: {fileID: 0}
-  animator: {fileID: 0}
+  animator: {fileID: 95391780594314510}
   playerCollider: {fileID: 0}
 --- !u!61 &1824045667
 BoxCollider2D:

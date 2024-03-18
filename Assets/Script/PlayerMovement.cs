@@ -31,11 +31,11 @@ public class PlayerMovement : MonoBehaviour
     private float moveSpeed;
     private float moveHorizontal;
     private float moveVertical;
-
     
 
+  
 
-    //private bool isDoubleJump = false;
+
 
 
     // Update is called once per frame

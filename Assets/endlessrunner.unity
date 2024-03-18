@@ -397,7 +397,7 @@ GameObject:
   - component: {fileID: 527120645}
   m_Layer: 0
   m_Name: PlatformSpawner
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -797,7 +797,6 @@ GameObject:
   - component: {fileID: 989182567}
   - component: {fileID: 989182566}
   - component: {fileID: 989182569}
-  - component: {fileID: 989182570}
   - component: {fileID: 989182571}
   - component: {fileID: 989182572}
   m_Layer: 0
@@ -926,28 +925,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97d99733b82987041b3d1c3c1cffb8e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &989182570
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 989182564}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5e028ec8b246c7c408e8000cb9cecda7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &989182571
 SpriteRenderer:
   m_ObjectHideFlags: 0
