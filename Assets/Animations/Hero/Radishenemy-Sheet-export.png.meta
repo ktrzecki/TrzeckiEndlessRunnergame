@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 22f0569a71675a24a8728a8ebd392649
+guid: 4677443153680e84fb63338a591533fc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7944502702452990849
-    second: Corn_0
+      213: -1157532127690835143
+    second: Radishenemy-Sheet-export_0
+  - first:
+      213: 3065491387871063527
+    second: Radishenemy-Sheet-export_1
+  - first:
+      213: 2841585089407282145
+    second: Radishenemy-Sheet-export_2
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -158,13 +164,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Corn_0
+      name: Radishenemy-Sheet-export_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 240
-        height: 87
+        x: 18
+        y: 1
+        width: 66
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +178,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7c982742e47fb190800000000000000
-      internalID: -7944502702452990849
+      spriteID: 93bb2e8a9ae9fefe0800000000000000
+      internalID: -1157532127690835143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Radishenemy-Sheet-export_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1
+        width: 70
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ede214fc20da8a20800000000000000
+      internalID: 3065491387871063527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Radishenemy-Sheet-export_2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1
+        width: 64
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebea2d55965f6720800000000000000
+      internalID: 2841585089407282145
       vertices: []
       indices: 
       edges: []

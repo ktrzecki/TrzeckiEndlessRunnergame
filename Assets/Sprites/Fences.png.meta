@@ -161,9 +161,9 @@ TextureImporter:
       name: Fences_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 25
-        width: 196
+        x: 2
+        y: 24
+        width: 200
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}

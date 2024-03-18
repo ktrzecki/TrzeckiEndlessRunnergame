@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 8500346c0a92df647908463a254daeaa
+guid: f09b081fdd4e4b74caa174dd7cf510f3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2252037977337939011
-    second: Fences 1_0
+      213: 1839572115138183088
+    second: scarecrowidlenew_0
+  - first:
+      213: 895283523239791452
+    second: scarecrowidlenew_1
+  - first:
+      213: 2028462087894901407
+    second: scarecrowidlenew_2
+  - first:
+      213: -4702987987850946064
+    second: scarecrowidlenew_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -158,13 +167,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fences 1_0
+      name: scarecrowidlenew_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 24
-        width: 200
-        height: 24
+        x: 33
+        y: 3
+        width: 113
+        height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +181,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dbb351434672fb0e0800000000000000
-      internalID: -2252037977337939011
+      spriteID: 0bf768d9719778910800000000000000
+      internalID: 1839572115138183088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scarecrowidlenew_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 3
+        width: 119
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5bc7f7fe9fac6c00800000000000000
+      internalID: 895283523239791452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scarecrowidlenew_2
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 3
+        width: 117
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92a25d858b862c10800000000000000
+      internalID: 2028462087894901407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scarecrowidlenew_3
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 4
+        width: 121
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f91731b751abbeb0800000000000000
+      internalID: -4702987987850946064
       vertices: []
       indices: 
       edges: []

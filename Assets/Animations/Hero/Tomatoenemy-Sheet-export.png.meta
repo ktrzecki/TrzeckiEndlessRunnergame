@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 22f0569a71675a24a8728a8ebd392649
+guid: ca2a7d7b7df317e4198b7b3a05469e77
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7944502702452990849
-    second: Corn_0
+      213: -668858043937894513
+    second: Tomatoenemy-Sheet-export_0
+  - first:
+      213: 1630389697896286454
+    second: Tomatoenemy-Sheet-export_1
+  - first:
+      213: -6549723146701517203
+    second: Tomatoenemy-Sheet-export_2
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -158,13 +164,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Corn_0
+      name: Tomatoenemy-Sheet-export_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 240
-        height: 87
+        x: 17
+        y: 2
+        width: 67
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +178,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7c982742e47fb190800000000000000
-      internalID: -7944502702452990849
+      spriteID: f8f4bed172db7b6f0800000000000000
+      internalID: -668858043937894513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomatoenemy-Sheet-export_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2
+        width: 65
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f88094cace40a610800000000000000
+      internalID: 1630389697896286454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomatoenemy-Sheet-export_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 2
+        width: 67
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ec3bfff75ba15a0800000000000000
+      internalID: -6549723146701517203
       vertices: []
       indices: 
       edges: []
