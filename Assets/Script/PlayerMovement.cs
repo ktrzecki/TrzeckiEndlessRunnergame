@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -27,12 +28,15 @@ public class PlayerMovement : MonoBehaviour
     private bool isJumping = false;
     private float jumpTimer;
 
+    
     //private bool isDoubleJump = false;
     
 
     // Update is called once per frame
     private void Update()
     {
+      
+
 
         //making jump on ground
         //isGrounded = Physics2D.OverlapCircle(FeetPosition.position, groundDistance, groundlayer);
@@ -90,7 +94,8 @@ public class PlayerMovement : MonoBehaviour
             obstacleSpawner.isPaused = true;
             platformSpawner.isPaused = true;
             collectableSpawner.isPaused = true;
-            
+            animator.SetBool("isCrouching", true);
+
         }
         if (Input.GetKeyUp("x") && isGrounded ==true)
         {
@@ -100,8 +105,13 @@ public class PlayerMovement : MonoBehaviour
             obstacleSpawner.isPaused = false;
             platformSpawner.isPaused = false;
             collectableSpawner.isPaused = false;
+            animator.SetBool("isCrouching", false);
         }
 
+        
 
-    }
+}
+    
+    
+    
 }

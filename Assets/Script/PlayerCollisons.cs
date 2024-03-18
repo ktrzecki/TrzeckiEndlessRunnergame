@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerCollisons : MonoBehaviour
+
 {
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -12,4 +14,5 @@ public class PlayerCollisons : MonoBehaviour
             //TODO connect this to a game manager GameOver()
         }
     }
+
 }
